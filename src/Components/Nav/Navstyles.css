@@ -1,0 +1,135 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: slateblue;
+  z-index: var(--z-fixed);
+  transition: background-color 0.4s, box-shadow 0.4s;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .NavToggler,
+.closeNav {
+  display: inline-flex;
+  font-size: 1.25rem;
+  cursor: pointer;
+} */
+
+#navlogo {
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.4s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+.NavToggler {
+  color: #fff;
+  transition: color 0.4s;
+}
+
+#name {
+  color: #fff;
+}
+
+.close {
+  color: #000;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navList {
+  display: inline-flex;
+  gap: 9px;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navToggler {
+  display: none;
+}
+
+
+
+/* mobile devices */
+
+@media screen and (max-width: 350px) {
+  .navmenu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--body-color);
+    width: 100%;
+    box-shadow: 0 1px 24px 1px;
+    padding-block: 5rem 4rem;
+    transition: top .4s;
+  }
+
+  .navList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+   .links {
+    color: slateblue;
+    font-weight: 500;
+    transition: 0.4s;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+
+  .links:hover {
+    color: #000;
+  }
+
+  .closeNav {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  #bnt {
+    display: inline-block;
+    background-color: slateblue;
+    color: #fff;
+    font-weight: 400;
+    padding: 1rem, 2rem;
+    transition: background-color .4s, box-shadow .4s;
+  }
+
+  #btn:hover {
+    background-color: #fff;
+  }
+
+  .navToggler{
+    display: flex;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  #navlogo {
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color 0.4s;
+  }
+  
+}
