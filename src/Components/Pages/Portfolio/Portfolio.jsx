@@ -47,6 +47,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
+      <div className="description">
       <div className="containerthumb">
       <div className="top">
               <div className="subcard" id="subcards">
@@ -100,6 +101,14 @@ function Portfolio() {
                   Add to Card
                 </button>
                 <button id="shortlist">Short List</button>
+              </div>
+            </div>
+            </div>
+            <div className="decribeWeb">
+              {/* <h1 id="web">E-COMMERCE WEB SITE</h1> */}
+              <div className="textt">
+                <p>An e-commerce website allows users to browse and purchase products online. </p>
+                  <p>Users can add items to their shopping cart and remove them before completing the purchase.</p>
               </div>
             </div>
             </div>

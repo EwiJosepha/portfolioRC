@@ -8,7 +8,7 @@
 #app {
   padding-left: 20px;
   padding-right: 20px;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
 }
 
 #atag {
@@ -28,7 +28,7 @@
   top: 0;
   position: sticky;
   z-index: 10;
-  background-color:  #fbf7fa;
+  background-color: #fbf7fa;
 }
 
 .title {
@@ -90,7 +90,6 @@
 
 .fa-regular {
   position: relative;
-
 }
 
 .fa-solid {
@@ -121,9 +120,9 @@
   cursor: pointer;
 }
 
-.stars{
- display: flex;
- gap: 5px;
+.stars {
+  display: flex;
+  gap: 5px;
 }
 
 .name {
@@ -147,7 +146,8 @@
   object-fit: cover;
 }
 
-#gmorning, #johnson {
+#gmorning,
+#johnson {
   padding: 3px;
   font-size: 8px;
 }
@@ -166,6 +166,24 @@
   cursor: pointer;
 }
 
+.description {
+  display: flex;
+
+}
+
+.decribeWeb {
+  display: flex;
+  background-color: #fdf8f8;
+  align-items: center;
+  justify-content: center;
+}
+
+.textt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .containerthumb {
   background-color: fff;
@@ -174,12 +192,11 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-
- .fa-solid {
+.fa-solid {
   padding: 10px;
- }
+}
 
- .subcard {
+.subcard {
   gap: 30px;
   position: relative;
 }
@@ -193,54 +210,52 @@
   border-bottom-right-radius: 8px;
 }
 
- .subcard .fa-regular {
+.subcard .fa-regular {
   padding-top: 20px;
   position: absolute;
   margin-left: -50px;
- }
+}
 
- .snikersprice {
+.snikersprice {
   padding: 10px;
   display: flex;
   align-items: center;
   color: #303e6f;
   justify-content: space-between;
+}
 
- }
-
- #snykers-price {
+#snykers-price {
   padding: 10px;
   font-size: 15px;
   font-weight: 700;
 }
 
- #snykers {
+#snykers {
   color: #d6cfcf;
   font-size: 15px;
- }
+}
 
- .top {
+.top {
   width: 100%;
   background-color: fff;
-  border: 1px solid #6a6666;
   height: 400px;
   border-radius: 6px;
 }
 
- .date {
+.date {
   padding: 10px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 20px;
   gap: 8px;
- }
+}
 
- #star {
+#star {
   color: #ffa500;
   padding: 5px;
 }
 
- #addtocard {
+#addtocard {
   padding: 6px;
   color: #fff;
   background-color: #303e6f;
@@ -250,9 +265,9 @@
   outline: 0;
   box-shadow: 0 6px 6px #553ff040;
   cursor: pointer;
- }
+}
 
- #shortlist {
+#shortlist {
   padding: 6px;
   color: #303e6f;
   border-radius: 40px;
@@ -266,5 +281,9 @@
 
 #shoes {
   padding: 5px;
- color: #d6cfcf;
+  color: #d6cfcf;
+}
+
+#web {
+  text-align: center;
 }
