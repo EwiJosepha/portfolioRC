@@ -62,8 +62,12 @@
 #linked {
   width: 30px;
   height: 30px;
+  transition: transform 0.3s;
 }
 
+#linked:hover {
+  transform: scale(1.1);
+}
 .myAvatar {
   width: 30%;
 }
@@ -81,3 +85,5 @@
   gap: 20px;
   padding-top: 30px;
 }
+
+
