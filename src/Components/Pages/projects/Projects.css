@@ -4,7 +4,11 @@
   display: grid;
   margin: 30px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-top: 150px;
+}
+
+.projects {
+  margin-top: 120px;
+  text-align: center;
 }
 
 .top:hover {
@@ -102,4 +106,23 @@
 #shoes {
   padding: 5px;
   color: #d6cfcf;
+}
+
+@media screen and (max-width: 650px) {
+  .containerthumb2 {
+    background-color: fff;
+    gap: 10px;
+    display: grid;
+    margin: 30px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (max-width: 460px) {
+  .containerthumb2 {
+    background-color: fff;
+    gap: 10px;
+    display: grid;
+    margin: 30px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 }

@@ -64,8 +64,6 @@ li {
   display: none;
 }
 
-
-
 /* mobile devices */
 
 @media screen and (max-width: 350px) {
@@ -75,7 +73,7 @@ li {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: var(--body-color);
+    /* background-color: var(--body-color); */
     width: 100%;
     box-shadow: 0 1px 24px 1px;
     padding-block: 5rem 4rem;

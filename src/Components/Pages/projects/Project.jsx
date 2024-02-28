@@ -4,6 +4,7 @@ import "./Projects.css";
 function Project() {
   return (
     <div>
+      <h2 className="projects">Projects worked on Using Node, Javascript and React</h2>
       <div className="containerthumb2">
         <div className="top">
           <div className="subcard" id="subcards">

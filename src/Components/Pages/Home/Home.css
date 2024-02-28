@@ -1,5 +1,11 @@
 .back {
-  background: linear-gradient(45deg, #ffffff, rgb(244, 244, 244), #f4f7f9, #ffffff);
+  background: linear-gradient(
+    45deg,
+    #ffffff,
+    rgb(244, 244, 244),
+    #f4f7f9,
+    #ffffff
+  );
 }
 
 .back {
@@ -35,9 +41,15 @@
 
 .text h1 {
   color: cornsilk;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 700;
-  background: linear-gradient(45deg, #ee7752, rgb(250, 178, 44), #daeff7, #23d5ab);
+  background: linear-gradient(
+    45deg,
+    #ee7752,
+    rgb(250, 89, 44),
+    #daeff7,
+    #bae6dc
+  );
   width: 90%;
 }
 
@@ -54,8 +66,8 @@
 }
 
 .text span {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:rgb(53, 50, 50);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(53, 50, 50);
 }
 
 #git,
@@ -68,11 +80,12 @@
 #linked:hover {
   transform: scale(1.1);
 }
+
 .myAvatar {
   width: 30%;
 }
 
-#avatar{
+#avatar {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -80,10 +93,44 @@
   margin-left: 100px;
 }
 
-.stackTech{
+.stackTech {
   display: inline-flex;
   gap: 20px;
   padding-top: 30px;
 }
 
+@media screen and (max-width: 650px) {
+  .landingpage {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    height: 100vh;
+  }
 
+  .text {
+    width: 95%;
+    margin-left: 20px;
+  }
+
+  #commitment {
+    padding-top: 30px;
+  }
+
+  .myAvatar {
+    width: 100%;
+  }
+  
+  #avatar {
+  display: none;
+  }
+
+  .stackTech {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+    gap: 30px;
+    padding-top: 30px;
+  }
+}

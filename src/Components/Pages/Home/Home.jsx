@@ -23,11 +23,14 @@ function Home() {
       <div className="landingpage">
         <div className="text">
           <h1>Full Stack Developer </h1>
-          <span>
-            HI, iam Ewi Mbong Josepha.Apassionate
+          <div id="commitment">
+          <span id="commitment">
+            HI, i am Ewi Mbong Josepha.Apassionate
             <br />
             and Commited Full Stack Developer base in Cameroon
           </span>
+          </div>
+        
           <div className="gitIcon">
             <img src={giticon} id="git" alt="Linked Icon" />
             <img src={linkedin} id="linked" alt="Git Icon" />
