@@ -169,11 +169,17 @@
 .description {
   display: flex;
   background: linear-gradient(45deg, #ffffff, rgb(244, 244, 244), #f4f7f9, #ffffff);
+  padding-bottom: 20px;
 }
 
 #portfolio {
-  color: rgb(251, 93, 35);
-  padding: 30px;
+  padding-bottom: 30px;
+}
+
+.headers {
+  background: linear-gradient(45deg, #ffffff, rgb(244, 244, 244), #f4f7f9, #ffffff); 
+   padding: 30px;
+
 }
 
 .decribeWeb {
@@ -339,3 +345,19 @@ h2 {
   transform: scale(1.1);
   color: #fff;
 }
+
+.landingimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 30px;
+  background: linear-gradient(45deg, #ffffff, rgb(244, 244, 244), #f4f7f9, #ffffff);
+  padding-bottom: 20px;  /* height: 500px; */
+}
+
+.landingimage img {
+  width: 70%;
+  border: none;
+}
+

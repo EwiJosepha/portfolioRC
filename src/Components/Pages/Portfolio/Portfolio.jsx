@@ -7,7 +7,13 @@ import "./Portfolio.css";
 function Portfolio() {
   return (
     <div>
-      <h1  id="portfolio">PORTFOLIO</h1>
+      <div className="headers">
+        <h1 id="portfolio">PORTFOLIO</h1>
+        <h1 style={{color: "orangered"}}>
+          Buy from Home<i class="ri-shopping-cart-2-line"></i>
+        </h1>
+      </div>
+
       <div className="description">
         <div className="containerthumb">
           <div className="top">
@@ -44,15 +50,23 @@ function Portfolio() {
           <div className="centered-content">
             <h2>E-COMMERCE WEB SITE</h2>
             <div className="definition">
-            <span id="centered">An e-commerce website allows users to browse and purchase products online.<br></br> Users can add items to their shopping cart and remove them before completing the purchase.</span>
+              <span id="centered">
+                An e-commerce website allows users to browse and purchase
+                products online.<br></br> Users can add items to their shopping
+                cart and remove them before completing the purchase.
+              </span>
             </div>
-          
+
             <div className="flex-buttons">
               <div className="code">
-                <p style={{color: "orange"}}>code <img src={gitHub}  id="codeimg"/></p>
+                <p style={{ color: "orange" }}>
+                  code <img src={gitHub} id="codeimg" />
+                </p>
               </div>
               <div className="code">
-                <p style={{color: "orange"}}>Demo <img src={gitHub} /></p>
+                <p style={{ color: "orange" }}>
+                  Demo <img src={gitHub} />
+                </p>
               </div>
               {/* <button>Button 2</button> */}
             </div>

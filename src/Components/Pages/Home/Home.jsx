@@ -14,6 +14,7 @@ import gitHub from "../../../assets/icons/317712_code repository_github_reposito
 import linkedin from "../../../assets/icons/317712_code repository_github_repository_resource_icon.png";
 import avatar from "../../../assets/icons/1175532_developer_firebase_google_coding_programming_icon (1).png";
 import Portfolio from "../Portfolio/Portfolio";
+import Meal from "../Portfolio/Meal";
 
 function Home() {
   return (
@@ -52,6 +53,7 @@ function Home() {
       </div>
     </div>
       <Portfolio/>
+      <Meal/>
       </>
   );
 }
