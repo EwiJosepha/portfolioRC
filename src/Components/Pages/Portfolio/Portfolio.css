@@ -168,7 +168,12 @@
 
 .description {
   display: flex;
+  background: linear-gradient(45deg, #ffffff, rgb(244, 244, 244), #f4f7f9, #ffffff);
+}
 
+#portfolio {
+  color: rgb(251, 93, 35);
+  padding: 30px;
 }
 
 .decribeWeb {
@@ -189,7 +194,8 @@
   background-color: fff;
   gap: 10px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 30px;
+  /* grid-template-columns: repeat(1, minmax(0, 1fr)); */
 }
 
 .fa-solid {
@@ -220,7 +226,7 @@
   padding: 10px;
   display: flex;
   align-items: center;
-  color: #303e6f;
+  color: orange;
   justify-content: space-between;
 }
 
@@ -258,18 +264,18 @@
 #addtocard {
   padding: 6px;
   color: #fff;
-  background-color: #303e6f;
+  background-color: orangered;
   border: none;
   border-radius: 40px;
   font-size: 10px;
   outline: 0;
-  box-shadow: 0 6px 6px #553ff040;
+  box-shadow: 0 6px 6px rgb(254, 216, 202);
   cursor: pointer;
 }
 
 #shortlist {
   padding: 6px;
-  color: #303e6f;
+  color: orange;
   border-radius: 40px;
   border: none;
   font-size: 10px;
@@ -284,6 +290,52 @@
   color: #d6cfcf;
 }
 
-#web {
+.centered-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.definition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 30%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: rgb(94, 79, 79);
+}
+
+h2 {
+  color: rgb(255, 105, 50);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 30px;
+}
+
+.centered-content {
   text-align: center;
+}
+
+.flex-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.code {
+  width: 30%;
+  margin-top: 40px;
+  transition: transform 0.3s;
+}
+
+.code img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.code:hover {
+  background-color: rgb(233, 83, 28);
+  transform: scale(1.1);
+  color: #fff;
 }

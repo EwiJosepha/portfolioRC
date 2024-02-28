@@ -3,9 +3,10 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: slateblue;
+  background-color: rgb(255, 94, 0);
   z-index: var(--z-fixed);
   transition: background-color 0.4s, box-shadow 0.4s;
+  height: 80px;
 }
 
 .navContainer {
@@ -88,7 +89,7 @@ li {
   }
 
    .links {
-    color: slateblue;
+    color: orange;
     font-weight: 500;
     transition: 0.4s;
     text-decoration: none;
@@ -108,7 +109,7 @@ li {
 
   #bnt {
     display: inline-block;
-    background-color: slateblue;
+    background-color: orange;
     color: #fff;
     font-weight: 400;
     padding: 1rem, 2rem;
