@@ -72,7 +72,13 @@ li {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background: linear-gradient(
+      45deg,
+      #ffffff,
+      rgb(244, 244, 244),
+      #f4f7f9,
+      #ffffff
+    );
     width: 100%;
     box-shadow: 0 1px 24px 1px;
     padding-block: 5rem 4rem;
@@ -80,7 +86,7 @@ li {
   }
 
   .navList{
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
